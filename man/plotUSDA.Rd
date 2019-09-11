@@ -4,13 +4,18 @@
 \alias{plotUSDA}
 \title{plotUSDA}
 \usage{
-plotUSDA(df, title = "USDA Plot")
+plotUSDA(df)
 }
 \arguments{
 \item{df}{a dataframe with a simple feature column}
-
-\item{title}{title for the plot}
 }
 \description{
 Quickly plot a dataframe produced by the getQuickstat() function.
+}
+\examples{
+\dontrun{
+# Use output from getQuickstat()
+plotUSDA(df = df_from_getQuickstat)
+}
+
 }

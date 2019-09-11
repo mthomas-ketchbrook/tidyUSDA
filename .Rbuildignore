@@ -2,3 +2,7 @@
 ^\.Rproj\.user$
 ^images$
 ^tests$
+^\.travis\.yml$
+^_config\.yml$
+^cran-comments\.md$
+^CRAN-RELEASE$
